@@ -1,0 +1,98 @@
+<!-- 3) Create Single Page Application College WebSite using HTML , CSS and JavaScript. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO DHB SONI COLLEGE , SOLAPUR .</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#faculty">Faculty</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="img"></div>
+    <section id="home">
+        <h2>About DHB Soni College</h2>
+        <p>DHB Soni College  is a prestigious institution offering a wide range of programs...</p>
+        <p>MVPM's DHB Soni College established in 2006, is one of the leading educational institutes in the city of Solapur. Over the past decade, the college has earned a prestigious reputation of harnessing a progressive outlook towards education by introducing career oriented courses, ICT enabled teaching facilities, outreach activities and discipline.
+            DHB Soni College offers outstanding graduate programs in B.Sc.(ECS) and BCA , each with a real world focus. These programs equip you with essential workplace skills that are abstract with the needs and aspirations of times.
+            The Junior College of the college was introduced in 2014 which offers courses in science and commerce stream. Under the worthy leadership of the management the faculty and the administrative staff of the DHB Soni College stand shoulder to shoulder to provide our stakeholders a lifetime experience of quality and need based education. We are committed to our pledge of making MVPM’s  DHB Soni College a premier college of the country.
+           The college is affiliated to Solapur Universiy,Solapur. & Maharashtra State Board of Secondary and Higher Secondary Education, Pune Division.
+</p>
+    </section>
+
+    <section id="departments">
+        <h2>Departments</h2>
+        <div class="department-card">
+            <h3>Computer Science</h3>
+				<h2>BCA - 120 CAPACITY </h2>
+				<h2>B.Sc.(ECS) - 80 CAPACITY </h2>
+			<h1> Master Degree </h1>
+				<h2>MCA - 60 CAPACITY </h2>
+				<h2>M.Sc.(CS) - 30 CAPACITY </h2>
+            <p>Explore the world of technology and innovation.</p>
+        </div>
+        <div class="department-card">
+            <h3>Business Administration</h3>
+            <p>Learn the skills to lead in the corporate world.</p>
+            <h4>B.Com</h4>
+            <h4>Commerce 11th & 12th</h4>
+        </div>
+        <!-- Add more departments as needed -->
+    </section>
+
+    <section id="courses">
+        <h2>Courses</h2>
+        <ul id="course-list">
+            <!-- Courses will be loaded here dynamically using JavaScript -->
+        </ul>
+    </section>
+
+    <section id="faculty">
+        <h2>Our Faculty</h2>
+        <p>Meet our distinguished faculty members...</p>
+        <h3>Computer Science</h3>
+        <ul>
+            <li>HOD-Prof.Navnath Bhandare</li>
+            <li>Prof.Arvind Bagale</li>
+            <li>Prof.Appasaheb Bhosale</li>
+            <li>Prof.Sharayu Mahajan </li>
+            <li>Prof.Shridevi Bharanpure</li>
+            <li>Prof.Anjali Kamane</li>
+            <li>Prof.Archana Katare</li>
+            <li>Prof.Sandyarani Shinde</li>
+            <li>prof.Madhuri Swami</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DHB SONI COLLEGE. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
